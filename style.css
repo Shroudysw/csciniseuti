@@ -245,4 +245,50 @@ footer {
 }
 
 
+.info-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: #d9efff;
+    padding: 60px 20px;
+    flex-wrap: wrap;
+}
+
+.info-card {
+    background-color: #ffffff;
+    width: 300px;
+    height: 220px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 25px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    text-decoration: none; 
+    color: #333; 
+}
+
+.info-card img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.info-card p {
+    font-size: 1.1rem;
+    color: #444;
+    font-weight: 500;
+}
+
+.info-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.info-card:hover img {
+    opacity: 1;
+}
 

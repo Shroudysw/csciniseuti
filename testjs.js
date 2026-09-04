@@ -184,7 +184,7 @@ const newsData = [
         image: "sanatatementala.png"
     }
 ];
-//stiri citite 
+
 function getReadNews() {
     try {
         return new Set(JSON.parse(localStorage.getItem('readNews') || '[]'));
@@ -509,7 +509,7 @@ function initSearchBox() {
         document.body.appendChild(searchSection);
     }
 }
-//theme storagw
+
 function initTheme() {
     const themeToggle = document.getElementById('theme-toggle');
     if (!themeToggle) return;
